@@ -28,6 +28,10 @@ body{
   font-size: 2.5rem;
 }
 
+.banner img{
+  width: 25%;
+}
+
 nav{
   padding: 0em;
   margin: 0em;
@@ -69,8 +73,8 @@ nav li:hover{
   width: 100%;
 }
 
-.box img{
-  width: 100%;
+h2{
+  margin: .5em;
 }
 
 .box{
@@ -79,6 +83,17 @@ nav li:hover{
   background-color: #bcbec0;
 }
 
-h2{
-  margin: .5em;
+.box img{
+  width: 100%;
+}
+
+.box ol{
+  list-style: none;
+  padding: 0em;
+  margin: 0em;
+}
+
+.box h3{
+  padding-top: .5em;
+  margin: 0em;
 }
