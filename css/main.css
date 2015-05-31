@@ -68,3 +68,17 @@ nav li:hover{
   min-height: 10em;
   width: 100%;
 }
+
+.box img{
+  width: 100%;
+}
+
+.box{
+  margin: .5em .5em 1em .5em;
+  padding: .75em;
+  background-color: #bcbec0;
+}
+
+h2{
+  margin: .5em;
+}
