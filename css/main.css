@@ -87,13 +87,28 @@ h2{
   width: 100%;
 }
 
-.box ol{
+.box dl{
   list-style: none;
   padding: 0em;
   margin: 0em;
 }
 
+.box dd{
+  float: right;
+}
+
 .box h3{
   padding-top: .5em;
   margin: 0em;
+}
+
+footer{
+  background-color:#6d6e71;
+  padding: .5em;
+  margin: 0em;
+}
+
+.social-media img{
+  width: 15%;
+  display: inline-block;
 }
