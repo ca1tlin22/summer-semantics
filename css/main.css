@@ -71,6 +71,7 @@ nav li:hover{
   padding: 4.5em .5em .5em .5em;
   min-height: 10em;
   width: 100%;
+
 }
 
 h2{
@@ -78,9 +79,11 @@ h2{
 }
 
 .box{
-  margin: .5em .5em 1em .5em;
+  margin: .5em .5em 0em .5em;
   padding: .75em;
   background-color: #bcbec0;
+  overflow: hidden;
+  clear: both;
 }
 
 .box img{
@@ -94,7 +97,8 @@ h2{
 }
 
 .box dd{
-  float: right;
+  padding: 0em;
+  margin: 0em;
 }
 
 .box h3{
@@ -102,8 +106,42 @@ h2{
   margin: 0em;
 }
 
+.buttons{
+  padding: 0em;
+  margin: 0em;
+  width: 100%;
+}
+
+.buttons ol{
+  list-style: none;
+  padding: 0em;
+  margin: 0em .5em .5em .5em;
+  overflow: hidden;
+}
+
+.buttons li{
+  background-color: #939598;
+  float: left;
+  margin: 0em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  border: 1px dashed #6d6e71;
+}
+
+.buttons a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.buttons li:hover{
+  background-color: #6d6e71;
+}
+
 footer{
-  background-color:#6d6e71;
+  background-color:#939598;
   padding: .5em;
   margin: 0em;
 }
